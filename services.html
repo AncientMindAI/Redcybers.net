@@ -7,7 +7,7 @@
   <meta name="description" content="RedCybers service catalog: vulnerability management, detection operations, and web/access security optimization.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -24,16 +24,31 @@
   </header>
 
   <main>
-    <section class="hero reveal">
-      <p class="eyebrow">Service Catalog</p>
-      <h1>Security Services Built for Action</h1>
-      <p class="subhero">Focused packages that give teams technical control and decision-makers clear visibility.</p>
+    <section class="hero hero-split reveal">
+      <div>
+        <p class="eyebrow">Service Catalog</p>
+        <h1>Security Services Built for Action</h1>
+        <p class="subhero">Focused packages that give teams technical control and decision-makers clear visibility.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="contact.html">Book Consultation</a>
+          <a class="btn btn-secondary" href="#packages">View Packages</a>
+        </div>
+      </div>
+      <aside class="hero-visual">
+        <div class="signal">
+          <div><strong>VM</strong><span>Risk reduction cadence</span></div>
+          <div><strong>DET</strong><span>Alert triage support</span></div>
+          <div><strong>WAF</strong><span>Policy hardening sprint</span></div>
+          <div><strong>IR</strong><span>Readiness and response</span></div>
+        </div>
+      </aside>
     </section>
 
-    <section class="reveal">
+    <section id="packages" class="reveal">
       <h2>Delivery Packages</h2>
       <div class="pricing-grid">
         <article class="price-card">
+          <span class="service-icon">BASE</span>
           <h3>Rapid Security Baseline</h3>
           <p class="price">From CAD 3,500</p>
           <ul>
@@ -43,6 +58,7 @@
           </ul>
         </article>
         <article class="price-card">
+          <span class="service-icon">VM</span>
           <h3>VM-as-a-Service</h3>
           <p class="price">From CAD 2,500/mo</p>
           <ul>
@@ -52,6 +68,7 @@
           </ul>
         </article>
         <article class="price-card">
+          <span class="service-icon">SOC</span>
           <h3>Detection Ops (Wazuh)</h3>
           <p class="price">From CAD 1,500/mo</p>
           <ul>
@@ -66,14 +83,17 @@
     <section class="reveal">
       <div class="card-grid">
         <article class="card">
+          <span class="service-icon">WAF</span>
           <h3>WAF Hardening Sprint</h3>
           <p>F5 policy tuning, false-positive reduction, and edge-protection runbooks.</p>
         </article>
         <article class="card">
+          <span class="service-icon">SASE</span>
           <h3>Zscaler/Proxy Optimization</h3>
           <p>Policy cleanup, exception reduction, and secure access operations support.</p>
         </article>
         <article class="card">
+          <span class="service-icon">IR</span>
           <h3>Incident Readiness</h3>
           <p>IR playbooks, tabletop facilitation, and response coordination guidance.</p>
         </article>
@@ -82,7 +102,11 @@
     </section>
   </main>
 
-  <footer><p>Domains: RedCybers.ca | RedCybers.net | RedCybers.com | Practical cybersecurity operations for Canadian businesses.</p></footer>
+  <footer>
+    <p class="footer-line">Practical cybersecurity operations for Canadian businesses.</p>
+    <p class="footer-domains">RedCybers.ca | RedCybers.net | RedCybers.com</p>
+  </footer>
   <script src="script.js"></script>
 </body>
 </html>
+
