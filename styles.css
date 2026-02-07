@@ -147,7 +147,11 @@ p {
 }
 
 .hero {
-  padding-top: var(--space-3);
+  padding-top: 0;
+}
+
+main > section:first-child {
+  margin-top: 0;
 }
 
 .hero-split {
