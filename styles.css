@@ -84,17 +84,16 @@ body {
   font-family: "Space Grotesk", sans-serif;
   font-size: 1rem;
   font-weight: 600;
-  padding: 8px 12px;
-  border-radius: 999px;
-  border: 1px solid transparent;
-  transition: color 180ms ease, background-color 180ms ease, border-color 180ms ease;
+  padding: 8px 2px;
+  margin-left: 18px;
+  border-bottom: 2px solid transparent;
+  transition: color 180ms ease, border-color 180ms ease;
 }
 
 .top-nav a:hover,
 .top-nav a.active {
   color: var(--ink);
-  background: rgba(255, 255, 255, 0.06);
-  border-color: rgba(255, 107, 107, 0.45);
+  border-color: var(--accent-2);
 }
 
 main {
