@@ -130,6 +130,11 @@ h1 {
   max-width: 10ch;
 }
 
+.one-line-title {
+  max-width: none;
+  white-space: nowrap;
+}
+
 h2 {
   font-size: clamp(1.45rem, 2.8vw, 2.1rem);
   margin-bottom: var(--space-2);
@@ -395,5 +400,9 @@ footer {
 
   h1 {
     font-size: clamp(2rem, 9vw, 3.2rem);
+  }
+
+  .one-line-title {
+    white-space: normal;
   }
 }
